@@ -1,0 +1,11 @@
+# Ainur
+# 10/07/2023
+
+# A program that checks if the user for their login and password
+# and checks it against a database. What names would you give these variables?
+
+
+inputUserName,
+inputUserPassword,
+dataPassword,
+dataUserName,
