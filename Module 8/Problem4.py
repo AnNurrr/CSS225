@@ -1,20 +1,23 @@
 # Ainur
 # 11/21/2023
 
+def is_leap_year(year):
+    """
+    Check if a year is a leap year.
 
-def count_vowels_and_consonants(input_string):
-    vowels = "aeiouAEIOU"
-    consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
+    Parameters:
+    - year (int): The year to be checked.
 
-    num_vowels = sum(1 for char in input_string if char in vowels)
-    num_consonants = sum(1 for char in input_string if char in consonants)
+    Returns:
+    - bool: True if the year is a leap year, False otherwise.
+    """
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
 
-    return num_vowels, num_consonants
+# Example
+year_to_check = 2024
+result = is_leap_year(year_to_check)
+print(f"{year_to_check} is a leap year: {result}")
 
-# Get input from the user
-user_input = input("Enter a string: ")
-
-# Call the function and display the result
-vowels, consonants = count_vowels_and_consonants(user_input)
-print(f"Number of vowels: {vowels}")
-print(f"Number of consonants: {consonants}")
