@@ -4,11 +4,12 @@
 
 
 
-sum = 0
+sumofnumbers = 0
+numbers = []
 
+while sumofnumbers<=100:
+    user_value = float(input("Enter a number: "))
+    numbers.append(user_value)
+    sumofnumbers = sum(numbers)
 
-while sum<=100:
-    user_value = int(input("Enter a number: "))
-    sum+=user_value
-
-print("Sum is greater than 100, Final sum is: ", sum)
+print("Sum is greater than 100, Final sum is: ", sumofnumbers)
