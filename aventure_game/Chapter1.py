@@ -15,4 +15,13 @@ def orionis_scenario():
     return input("Your answer is: ")
 def continue_journey():
     print("You want to continue journey?")
-    print("")
+    print("If so, solve this problem--> 45*45 ")
+    return input("Type your answer here--> ")
+
+def chapter_2():
+    print("Welcome to another adventure")
+    print("Lets discove more things and gain valuable insights")
+    print("You are in aliens place")
+    print("Would you like to discover aliens culture? or would you like to continue your journey?")
+    return ("Give your answer here--> ")
+
