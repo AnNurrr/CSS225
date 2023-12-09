@@ -20,5 +20,5 @@ turtle_welcome.py: Module with Turtle graphic functions for drawing welcome mess
 
 6. How to start the program(Game)
 Run the Chapter12345.py script using Python interpreter
-Follow the screen promts to navigate next chapters
+Follow the screen prompts to navigate next chapters
 Enjoy the text-based adventure game

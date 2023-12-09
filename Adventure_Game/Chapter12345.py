@@ -111,6 +111,7 @@ def chapter_four():
     print("\nChapter 4: The Moon")
     time.sleep(1)
     print("You arrive at a moon.")
+    time.sleep(1)
     print("A mysterious force surrounds you.")
     time.sleep(2)
     print("                                    #")
