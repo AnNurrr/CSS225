@@ -162,7 +162,7 @@ def chapter_five():
 
     time.sleep(1)
 
-    print(f"CONGRATULATIONS! \nYou've completed the Interstellar Adventure.\n")
+    print(f"CONGRATULATIONS! \n WIN WIN WIN \n You've completed the Interstellar Adventure.\n")
 
 # Main game loop
 
