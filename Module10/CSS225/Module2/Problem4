@@ -1,0 +1,8 @@
+# Ainur
+# 10/07/2023
+# A program that calculates the users BMI (Body Mass Index).
+# You will need to collect their height and weight.
+# What would you name these input variables? What would you name the output variable?
+
+I would name as Input variables: height, weight
+Output variable: bmi

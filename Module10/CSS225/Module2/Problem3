@@ -1,0 +1,21 @@
+# Ainur
+# 10/07/2023
+
+# pseudocode that asks the user for two numbers and gives the user the possibility
+# to choose between computing sum and computing the product
+
+1. Start
+2. Output: “Enter a number”
+3. Input number1
+4. Output: “Enter a second number”
+5. Input: number2
+6. Output: “1. Choose an operation:”
+7. Output: “2. Compute sum of numbers”
+8. Output: “Compute product of number”
+9. IF choice is 1, then
+10. Print(“The sum is “ + number1 + number2)
+11. ELSE IF choice is 2, then
+12. Print(“The product is” + number1*number2)
+13. ELSE
+14. Print(Incorrect choice. Please choose 1 of 2
+15. End

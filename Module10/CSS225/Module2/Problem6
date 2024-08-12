@@ -1,0 +1,13 @@
+# Ainur
+# 10/07/2023
+
+# A program that automatically converts English text to Morse code and vice versa.
+# What names would you give the variables in this program?
+
+
+
+EngText,
+MorseText,
+EngToMorse
+MorseToEng
+OutputText
